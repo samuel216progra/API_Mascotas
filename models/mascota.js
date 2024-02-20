@@ -33,7 +33,7 @@ const AnimalSchema = Schema({
     role: {
         type: String,
         required: true,
-        enum: ["ADOPTADO_ROLE", "SINADOPTAR_ROLE"]
+        enum: ["ROLE_ADOPTADO", "ROLE_NO_ADOPTADO"]
     },
 
     estado: {

@@ -19,7 +19,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nombre\": \"finix\",\n  \"tipo\": \"Gato\",\n  \"raza\": \"Chartreux\",\n  \"caracterizticas\": \"naranja con rayas negras\",\n  \"estadoDelAnimal\": \"Aceptable\",\n  \"role\": \"ADOPTADO_ROLE\"\n}",
+                "raw": "{\n  \"nombre\": \"finix\",\n  \"tipo\": \"Gato\",\n  \"raza\": \"Chartreux\",\n  \"caracterizticas\": \"naranja con rayas negras\",\n  \"estadoDelAnimal\": \"Aceptable\",\n  \"role\": \"ROLE_NO_ADOPTADO\"\n}",
                 "form": []
             },
             "tests": []
@@ -79,7 +79,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nombre\": \"javi\",\n  \"tipo\": \"Perro\",\n  \"raza\": \"mini pug\",\n  \"caracterizticas\": \"negro con manchas blancas\",\n  \"estadoDelAnimal\": \"Aceptable\",\n  \"role\": \"ADOPTADO_ROLE\"\n}",
+                "raw": "{\n  \"nombre\": \"javi\",\n  \"tipo\": \"Perro\",\n  \"raza\": \"mini pug\",\n  \"caracterizticas\": \"negro con manchas blancas\",\n  \"estadoDelAnimal\": \"Aceptable\",\n  \"role\": \"ROLE_ADOPTADO\"\n}",
                 "form": []
             },
             "tests": []

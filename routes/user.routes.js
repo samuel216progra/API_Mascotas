@@ -15,6 +15,7 @@ const { existenteEmail, esRolValido, existenteId } = require('../helpers/db-vali
 const router = Router();
 
 router.get("/", usuarioGet);
+
 router.get(
     "/:id",
     [

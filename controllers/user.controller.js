@@ -58,12 +58,9 @@ const usuarioDelete = async(req, res) => {
 }
 
 const usuarioPost = async (req, res) => {
-    const { nombre, correo, password, role } = req.body;
-    const usuario = new Usuario({ 
-        nombre, 
-        correo, 
-        password, 
-        role });
+    const { password,  ...resto } = req.body;
+    const usuario = new Usuario({ password, ...resto });
+
 
     const salt = bcryptjs.genSaltSync();
     usuario.password = bcryptjs.hashSync(password, salt);

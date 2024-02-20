@@ -12,11 +12,11 @@ const router = Router();
 router.post(
     "/",
     [
-        check("nombre", "El nombre del animal es obligatorio").not().isEmpty(),
-        check("tipo", "El tipo del animal es obligatorio").not().isEmpty(),
-        check("raza", "La raza del animal es obligatorio").not().isEmpty(),
-        check("estadoDelAnimal", "El estado que se encuentra el animal es obligatorio").not().isEmpty(),
-        check("caracterizticas", "El estado que se encuentra el animal es obligatorio").not().isEmpty(),
+        check("nombre", "El nombre del animal es de caracter obligatorio obligatorio").not().isEmpty(),
+        check("tipo", "El tipo del animal es de caracter obligatorio").not().isEmpty(),
+        check("raza", "La raza del animal es de caracter obligatorio").not().isEmpty(),
+        check("estadoDelAnimal", "El estado que se encuentra el animal es de caracter obligatorioo").not().isEmpty(),
+        check("caracterizticas", "El estado que se encuentra el animal es de caracter obligatorio").not().isEmpty(),
         check("role").custom(esRolValido),
         validarCampos
     ], animalPost);

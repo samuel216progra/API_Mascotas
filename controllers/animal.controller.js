@@ -26,6 +26,7 @@ const getAnimalById = async (req, res) => {
     const animal = await Animal.findOne({_id: id});
 
     res.status(200).json({
+        
         animal
     });
 }

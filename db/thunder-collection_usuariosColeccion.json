@@ -1,0 +1,102 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "usuariosColeccion",
+    "dateExported": "2024-02-06T22:25:06.996Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "85c5bd6b-aa65-4506-8012-fc39b27da0a7",
+            "colId": "5d59d500-c41d-40ab-8f5e-ae44d169c4a0",
+            "containerId": "",
+            "name": "Agregar_Usuario",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-06T19:29:54.050Z",
+            "modified": "2024-02-06T20:24:49.415Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n\"nombre\":\"test15\",\r\n\"correo\": \"test15@gmail.com\",\r\n\"password\": \"123456\",\r\n\"role\": \"USER_ROLE\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "652c92ac-7bc7-4978-88e4-2324f8164cbb",
+            "colId": "5d59d500-c41d-40ab-8f5e-ae44d169c4a0",
+            "containerId": "",
+            "name": "Get_Usuario",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-02-06T21:37:49.089Z",
+            "modified": "2024-02-06T22:10:14.798Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "desde",
+                    "value": "5",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "limite",
+                    "value": "4",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "3e61a289-08ac-4cc8-8fc3-edadf4455953",
+            "colId": "5d59d500-c41d-40ab-8f5e-ae44d169c4a0",
+            "containerId": "",
+            "name": "Get_UsuarioById",
+            "url": "http://localhost:3000/api/usuarios/65c2956746fee58a40b36282",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-02-06T21:50:08.966Z",
+            "modified": "2024-02-06T21:51:00.601Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8f442b1f-193b-411c-88ad-183b0af160ff",
+            "colId": "5d59d500-c41d-40ab-8f5e-ae44d169c4a0",
+            "containerId": "",
+            "name": "Put_Usuario",
+            "url": "http://localhost:3000/api/usuarios/65c2954c46fee58a40b3626e",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-02-06T22:09:41.248Z",
+            "modified": "2024-02-06T22:12:38.888Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Samuel Adolfo Rodriguez Catro\",\n  \"role\": \"ADMIN_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d93578b8-3312-4a57-bce4-2e1e5ea35f04",
+            "colId": "5d59d500-c41d-40ab-8f5e-ae44d169c4a0",
+            "containerId": "",
+            "name": "Delete_Usuario",
+            "url": "http://localhost:3000/api/usuarios/65c2955446fee58a40b36272",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-02-06T22:20:50.188Z",
+            "modified": "2024-02-06T22:22:25.979Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

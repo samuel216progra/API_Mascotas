@@ -1,0 +1,102 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "animalesColeccion",
+    "dateExported": "2024-02-07T21:55:27.532Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cb0e78bc-5c33-4daa-90be-2e8a96ebd6af",
+            "colId": "2bdc1541-bc47-4827-8b12-e0a768c7a0a2",
+            "containerId": "",
+            "name": "Agregar_Animal",
+            "url": "http://localhost:3000/api/animales",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-06T23:11:44.801Z",
+            "modified": "2024-02-07T21:32:44.577Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"finix\",\n  \"tipo\": \"Gato\",\n  \"raza\": \"Chartreux\",\n  \"caracterizticas\": \"naranja con rayas negras\",\n  \"estadoDelAnimal\": \"Aceptable\",\n  \"role\": \"ADOPTADO_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "096ebf47-4d97-42c3-a982-4fb3d37dc41b",
+            "colId": "2bdc1541-bc47-4827-8b12-e0a768c7a0a2",
+            "containerId": "",
+            "name": "Get_Animal",
+            "url": "http://localhost:3000/api/animales",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-06T23:24:16.666Z",
+            "modified": "2024-02-07T21:33:14.466Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "desde",
+                    "value": "1",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "limite",
+                    "value": "1",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "743d9c00-6b0b-44db-87d4-5da1ff317aff",
+            "colId": "2bdc1541-bc47-4827-8b12-e0a768c7a0a2",
+            "containerId": "",
+            "name": "Get_AnimalById",
+            "url": "http://localhost:3000/api/animales/65c3f6fc965a121c18b46438",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-07T21:37:26.800Z",
+            "modified": "2024-02-07T21:39:49.902Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "653f6769-4ba1-44e8-93f0-c890f9e64e97",
+            "colId": "2bdc1541-bc47-4827-8b12-e0a768c7a0a2",
+            "containerId": "",
+            "name": "Put_Animal",
+            "url": "http://localhost:3000/api/animales/65c3f6fc965a121c18b46438",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-07T21:46:18.263Z",
+            "modified": "2024-02-07T21:47:16.348Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"javi\",\n  \"tipo\": \"Perro\",\n  \"raza\": \"mini pug\",\n  \"caracterizticas\": \"negro con manchas blancas\",\n  \"estadoDelAnimal\": \"Aceptable\",\n  \"role\": \"ADOPTADO_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2baa38d8-c79a-4f29-9787-b1088a5251a1",
+            "colId": "2bdc1541-bc47-4827-8b12-e0a768c7a0a2",
+            "containerId": "",
+            "name": "Delete_Animal",
+            "url": "http://localhost:3000/api/animales/65c3f6fc965a121c18b46438",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-07T21:52:15.664Z",
+            "modified": "2024-02-07T21:52:35.654Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

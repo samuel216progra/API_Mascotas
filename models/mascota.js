@@ -21,7 +21,7 @@ const AnimalSchema = Schema({
         required: [true, 'Caracterizticas visibles del animal']
     },
     
-    estadoDelAnimal: {
+    condiciones: {
         type: String,
         required: [true, 'El estado de animal es de caracter']
     },

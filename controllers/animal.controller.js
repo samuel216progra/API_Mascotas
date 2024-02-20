@@ -32,12 +32,12 @@ const getAnimalById = async (req, res) => {
 
 const animalPost = async (req, res ) => {
 
-    const  {nombre, tipo, raza, caracterizticas, estadoDelAnimal, role} = req.body;
+    const  {nombre, tipo, raza, caracterizticas, condiciones, role} = req.body;
     const animal = new Animal({ nombre, 
             tipo, 
             raza, 
             caracterizticas, 
-            estadoDelAnimal, 
+            condiciones, 
             role });
 
     await animal.save();
